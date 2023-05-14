@@ -92,7 +92,7 @@ const WeeklySchedule = () => {
       >
         <div style={{ display: "flex", gap: "20px" }}>
           <Button variant="contained" color="primary" onClick={handlePrevWeek}>
-            Previous
+            Previous Week
           </Button>
           <Box fontWeight="fontWeightBold">
             <DatePicker
@@ -112,7 +112,7 @@ const WeeklySchedule = () => {
           </Box>
         </div>
         <Button variant="contained" color="primary" onClick={handleNextWeek}>
-          Next
+          Next Week
         </Button>
       </div>
 
